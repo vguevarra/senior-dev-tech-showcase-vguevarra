@@ -4,5 +4,8 @@
         <referenceContainer name="content">
             <block class="Magento\Backend\Block\Template" template="Hnorman_PromoProducts::view.phtml"/>
         </referenceContainer>
+        <referenceContainer name="content">
+            <uiComponent name="hnorman_promoproducts_promo_listing"/>
+        </referenceContainer>
     </body>
 </page>
